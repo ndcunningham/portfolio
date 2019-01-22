@@ -4,7 +4,7 @@
   "description": "Nicholas Cunningham's Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "deploy": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
   },
   "dependencies": {
     "node-sass": "^4.11.0"
